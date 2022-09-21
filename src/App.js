@@ -1,12 +1,17 @@
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/common/Footer";
+import Header from "./components/common/Header";
+import LandingPage from "./pages/LandingPage";
 
 
 function App() {
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <button>dfs</button>
+      <Header />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+      <Footer />
     </>
   );
 }
