@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className="text-center mt-10 bg-[#ff7400] text-white">
-        <div className="container px-6 pt-6 mx-auto">
+        <div className=" px-6 pt-6 mx-auto">
           <div className="flex justify-center mb-6">
             <NavLink to="#!" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
               <svg aria-hidden="true"
@@ -112,7 +112,7 @@ const Footer = () => {
 
           <div>
             <form action="">
-              <div className="md:grid-cols-3 gird-cols-1 gap-4 flex justify-center items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 justify-center items-center">
                 <div className="md:ml-auto md:mb-6">
                   <p className="">
                     <strong>Sign up for our newsletter</strong>
@@ -126,7 +126,8 @@ const Footer = () => {
                     className="
                 form-control
                 block
-                w-full
+                w-[90%]
+                m-auto
                 px-3
                 py-1.5
                 text-base
@@ -136,7 +137,6 @@ const Footer = () => {
                 border border-solid border-gray-300
                 transition
                 ease-in-out
-                m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
               "
                     id="exampleFormControlInput1"
@@ -164,9 +164,9 @@ const Footer = () => {
         </div>
 
         <div className="text-center p-4 text-sm" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}} >
-          © 2021 Copyright:
+          © 2022 Copyright:
           <NavLink className="text-white"  to="/">Bikers Arghakhanchi Team</NavLink> <br/>
-          {/* <span className='text-xs'>Created by: <a className='ml-1 underline text-sm' target={"_blank"} href="http://krishnaakhanal.com.np/">Krishna Khanal</a> </span> */}
+          <span className='text-xs'>Created by: <a className='ml-1 underline text-sm' target={"_blank"} href="http://krishnaakhanal.com.np/">Krishna Khanal</a> </span>
         </div>
       </footer>
     </>

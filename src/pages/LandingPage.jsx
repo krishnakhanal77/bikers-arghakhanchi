@@ -19,12 +19,12 @@ const LandingPage = () => {
                 <Button>Learn More</Button>
               </div>
             </div>
-            <div className='mt-[5rem]'>
+            <div className='mt-[5rem]  xs:order-first sm:order-last md:order-last lg:order-last '>
               <img src={bikeImg} alt="" />
             </div>
           </div>
           <div className='text-white' >
-            <h1>Blogs</h1>
+            <h1 className='mb-3'>Blogs</h1>
             <Slide />
           </div>
         </div>
