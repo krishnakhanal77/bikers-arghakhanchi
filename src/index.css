@@ -10,3 +10,24 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+/* .top-navbar{
+  background-color: red;
+  clip-path: polygon(50% 0, 62% 100%, 0 100%, 0 0);
+ 
+} */
+/* .sub-nav{
+  background-color: black;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 41% 0);
+  float: right;
+} */
+
+.hero-sercion{
+  background-image: url('../public/109a8e3ffe7aff9e15fa45df947429bd.png');
+  background-size: cover;
+  object-fit: cover;
+
+}
+h1{
+  font-size: xx-large;
+}

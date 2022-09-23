@@ -5,14 +5,15 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'xs' : '250px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
       'md': '768px',
       //for medium devices
-      'laptop': '1024px',
+      'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
-      'desktop': '1280px',
+      'xl': '1380px',
       // => @media (min-width: 1280px) { ... }
     },
   },
