@@ -1,29 +1,29 @@
 export const blogData = [
   {
     id: 1,
-    name: "Rider Name",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk7ZBCEoP8xqPOTl3H6le-L0oao_kqdbyr3w&usqp=CAU",
+    name: "Sachin Kunwar",
+    image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.6435-9/79708884_644426859430207_4846926831837773824_n.jpg?stp=dst-jpg_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=da31f3&_nc_ohc=qBZj6wAIYMYAX_HXBxk&tn=Qc7MMxlYPQDT16aG&_nc_ht=scontent.fktm3-1.fna&oh=00_AT_0V0T7gyF3gclIAvQs-wt9nFwdzrS_ScD3nXY1Rg6FrQ&oe=635283E1",
     location: "North Indian, Biryani, Mughlai",
     blogText: "Motorcycle.com has been a staple in resources and information for the motorcycle scene around the world since the early 90s. These guys cover every type of motorcycle genre you can think of, making them one of the most comprehensive blogs out there. Whether you’re looking for reviews of motorcycles or parts, bikes for sale, insurance information, or just a little bit of entertainment to pass your time, Motorcycle.com has you covered. A true powerhouse in the moto-blogging world packed with as many areas of motorcycle coverage as you can ask for. Cycle World was a magazine initially founded in 1962 by Joe Parkhurst, who was later inducted into the Motorcycle Hall of Fame. CycleWorld features in-depth reviews conducted by experienced professionals who remain objective and are on the cutting edge of information within the industry. What’s more, CycleWorld also publishes a ton of great Youtube content making for a more engaging experience."
   },
   {
     id: 2,
     name: "Krishna Khanal",
-    image: "https://static.euronews.com/articles/stories/06/69/44/22/400x225_cmsv2_a2fec100-54e6-5c4c-aed0-f67db4b364f5-6694422.jpg",
+    image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.6435-9/164025336_1363838127312270_4957424788622810019_n.jpg?stp=dst-jpg_s851x315&_nc_cat=110&ccb=1-7&_nc_sid=da31f3&_nc_ohc=27xz8zz1d8sAX9YEzgp&_nc_ht=scontent.fktm3-1.fna&oh=00_AT-iZI8HwMnN6YMh9A5VbNv1_L6lGaIf7JwE0GzsdDa1Ow&oe=6351492F",
     location: "Kathmandu, Nepal",
     blogText: "Motorcycle.com has been a staple in resources and information for the motorcycle scene around the world since the early 90s. These guys cover every type of motorcycle genre you can think of, making them one of the most comprehensive blogs out there. Whether you’re looking for reviews of motorcycles or parts, bikes for sale, insurance information, or just a little bit of entertainment to pass your time, Motorcycle.com has you covered. A true powerhouse in the moto-blogging world packed with as many areas of motorcycle coverage as you can ask for. Cycle World was a magazine initially founded in 1962 by Joe Parkhurst, who was later inducted into the Motorcycle Hall of Fame. CycleWorld features in-depth reviews conducted by experienced professionals who remain objective and are on the cutting edge of information within the industry. What’s more, CycleWorld also publishes a ton of great Youtube content making for a more engaging experience."
 },
 {
   id: 3,
   name: "Rabindra Bhusal",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmZyvvE63JBSLYQG4_hTbQRhGDg1snpkE-0w&usqp=CAU",
+  image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.6435-9/117607710_645217836402761_4794232363569543536_n.jpg?stp=c160.0.640.640a_dst-jpg_s851x315&_nc_cat=103&ccb=1-7&_nc_sid=da31f3&_nc_ohc=P_n-6fHBjnkAX9CIhFf&_nc_ht=scontent.fktm3-1.fna&oh=00_AT9Q3SLujXzCtzTXcJipr-mosNZwdL8hPpnlBaT7tDTi1g&oe=635146DD",
   location: "Arghakhanchi, Nepal",
   blogText: "Bike Exif is one of my favorites for showcasing beautiful machinery. Cleanly presented and comprehensive with a niche in covering the latest cafe racers, bobbers, and scramblers, as well as some nifty how-to guides and apparel store. You can even find a cool little FAQ about the website and founder, Chris Hunter, here."
 },
 {
   id: 4,
-  name: "Rider Name",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLu0LDvxoFpuyeC6YhaPvO3bSDhfad_CtuzA&usqp=CAU",
+  name: "Kailash Kunwar",
+  image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.6435-9/96159591_571201673804378_8947859419643772928_n.jpg?stp=c0.79.720.720a_dst-jpg_s851x315&_nc_cat=110&ccb=1-7&_nc_sid=da31f3&_nc_ohc=MrzixalSOpIAX_R6EjS&_nc_ht=scontent.fktm3-1.fna&oh=00_AT_FQoA-BP66IRmQABCgVlJmGSf1XJiXE7bIMcgxVVrXxQ&oe=63515366",
   location: "Arghakhanchi, Nepal",
   blogText: "Motorcycle.com has been a staple in resources and information for the motorcycle scene around the world since the early 90s. These guys cover every type of motorcycle genre you can think of, making them one of the most comprehensive blogs out there. Whether you’re looking for reviews of motorcycles or parts, bikes for sale, insurance information, or just a little bit of entertainment to pass your time, Motorcycle.com has you covered. A true powerhouse in the moto-blogging world packed with as many areas of motorcycle coverage as you can ask for. Cycle World was a magazine initially founded in 1962 by Joe Parkhurst, who was later inducted into the Motorcycle Hall of Fame. CycleWorld features in-depth reviews conducted by experienced professionals who remain objective and are on the cutting edge of information within the industry. What’s more, CycleWorld also publishes a ton of great Youtube content making for a more engaging experience."
 },

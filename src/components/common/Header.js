@@ -6,6 +6,7 @@ import { BiX } from 'react-icons/bi';
 const Header = () => {
 
   let Links = [
+    { name: "Home", link: "/" },
     { name: "Blogs", link: "/blogs" },
     { name: "Services", link: "/service" },
     { name: "Contact", link: "/contact" },
