@@ -1,8 +1,8 @@
 export const blogData = [
   {
     id: 1,
-    name: "Sachin Kunwar",
-    image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.6435-9/79708884_644426859430207_4846926831837773824_n.jpg?stp=dst-jpg_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=da31f3&_nc_ohc=qBZj6wAIYMYAX_HXBxk&tn=Qc7MMxlYPQDT16aG&_nc_ht=scontent.fktm3-1.fna&oh=00_AT_0V0T7gyF3gclIAvQs-wt9nFwdzrS_ScD3nXY1Rg6FrQ&oe=635283E1",
+    name: "Rabindra Bhusal",
+    image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.6435-9/157365688_790000605257816_6146012198334814439_n.jpg?stp=c0.132.1200.1200a_dst-jpg_s851x315&_nc_cat=100&ccb=1-7&_nc_sid=da31f3&_nc_ohc=0JrBy49mRsgAX_iRl9a&_nc_ht=scontent.fktm3-1.fna&oh=00_AT_Fl7MytfNa_kXv-1xpB2caHi7LBbQbq7-jC4CHRjAN0Q&oe=6355864B",
     location: "North Indian, Biryani, Mughlai",
     blogText: "Motorcycle.com has been a staple in resources and information for the motorcycle scene around the world since the early 90s. These guys cover every type of motorcycle genre you can think of, making them one of the most comprehensive blogs out there. Whether you’re looking for reviews of motorcycles or parts, bikes for sale, insurance information, or just a little bit of entertainment to pass your time, Motorcycle.com has you covered. A true powerhouse in the moto-blogging world packed with as many areas of motorcycle coverage as you can ask for. Cycle World was a magazine initially founded in 1962 by Joe Parkhurst, who was later inducted into the Motorcycle Hall of Fame. CycleWorld features in-depth reviews conducted by experienced professionals who remain objective and are on the cutting edge of information within the industry. What’s more, CycleWorld also publishes a ton of great Youtube content making for a more engaging experience."
   },
