@@ -12,9 +12,7 @@ const LandingPage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
             <div className=' xs:order-2 sm:mt-[4rem] md:mt-[8rem] text-white'>
               <h1 className='sm:font-medium sm:text-[2rem] md:font-semibold md:text-[4rem] md:leading-[4.5rem]' >Boost your <br /> Power Now!!</h1>
-              <p className='mt-8 text-justify italic'>Our spacious and light fitness suites have dedicated areas
-                for cardio, fixed weights, free weights, functional
-                training, plate-loaded machines, lifting racks and cable motion.</p>
+              <p className='mt-8 text-justify italic'>Riding a motorcycle is a tribute, a tip of the helmet as it were, to our rugged ancestors who challenge us through the dust of centuries, proof that we have succumbed to the safety nets of civilization.”</p>
               <div className="mt-[4rem]">
                 <Button>Learn More</Button>
               </div>
