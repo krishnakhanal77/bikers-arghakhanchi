@@ -16,6 +16,13 @@ module.exports = {
       'xl': '1380px',
       // => @media (min-width: 1280px) { ... }
     },
+    extend: {
+      colors: {
+        'primary-dark': '#1a1a1a',
+        'secondary-dark': '#2c2c2c',
+        'accent': '#e9aa22',
+      },
+    },
   },
   plugins: [],
 }

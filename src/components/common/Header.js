@@ -23,23 +23,23 @@ const Header = () => {
             <span className='text-xl font-sans font-medium text-blue-700'><NavLink to="/"> <img className='h-[4rem] w-[9rem] ' src={logo} alt="Bikers Arghakhanchi" /> </NavLink></span>
           </div>
 
-          <div onClick={() => setOpen(!open)} className=' bg-[#ff7400] text-2xl absolute right-8 top-4 cursor-pointer md:hidden'>
+          <div onClick={() => setOpen(!open)} className='bg-[#ff7400] text-white text-2xl absolute right-8 top-4 cursor-pointer md:hidden'>
             <div >{open ? <BiX/> : <HiMenuAlt1/>} </div>
           </div>
 
-          <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' && 'bg-[#ff7400]' : 'top-[-490px]'}`}>
+          <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 bg-[#ff7400]' : 'top-[-490px]'}`}>
             {
               Links?.map((link) => (
                 <li key={link.name} className='md:mr-8 text-md font-medium md:my-0 my-5'>
-                  <NavLink onClick={() => setOpen(false)} to={link.link} className='text-[#fff] hover:text-gray-400 duration-500'>{link.name}</NavLink>
+                  <NavLink onClick={() => setOpen(false)} to={link.link} className='text-white hover:text-gray-300 duration-500'>{link.name}</NavLink>
                 </li>
               ))
             }
-            <button>
-              <NavLink to='/login'>
+            <li className='md:mr-8 text-md font-medium md:my-0 my-5'>
+              <NavLink to='/login' className='text-white hover:text-gray-300 duration-500'>
                 Login
               </NavLink>
-            </button>
+            </li>
           </ul>
         </div>
       </div>

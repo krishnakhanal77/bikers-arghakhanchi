@@ -48,11 +48,11 @@ const Slide = () => {
         <Slider {...settings}>
 
           {
-            data.map(({ blogText, image, name, id, location}) => {
+            data.map(({ title, description, images }, index) => {
               return (
                 <>
                   <div>
-                    <SliderCard name={name} blogText={blogText} image={image} key={id} location={location} />
+                    <SliderCard name={title} blogText={description} image={images[0]} key={index} id={index} />
                   </div>
                 </>
               )

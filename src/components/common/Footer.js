@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-      <footer className="text-center mt-10 bg-[#ff7400] text-white">
+      <footer className="text-center  bg-[#ff7400] text-white">
         <div className=" px-6 pt-6 mx-auto">
           <div className="flex justify-center mb-6">
             <NavLink to="#!" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
@@ -154,9 +154,7 @@ const Footer = () => {
 
           <div className="mb-6">
             <p className='text-sm'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-              repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-              eum harum corrupti dicta, aliquam sequi voluptate quas.
+              Join Bikers Arghakhanchi and explore the breathtaking landscapes, historic sites, and scenic routes of Arghakhanchi District. Whether you're riding to Supa Deurali Temple, exploring Panini Tapobhumi, or enjoying the views from Sandhikharka, we're here to share the passion for adventure on two wheels. Connect with fellow riders, discover new destinations, and experience the freedom of the open road in one of Nepal's most beautiful regions.
             </p>
           </div>
 
