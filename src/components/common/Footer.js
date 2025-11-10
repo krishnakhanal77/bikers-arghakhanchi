@@ -164,11 +164,11 @@ const Footer = () => {
         <div className="text-center p-4 text-sm" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}} >
           © 2022 Copyright:
           <NavLink className="text-white"  to="/">Bikers Arghakhanchi Team</NavLink> <br/>
-          <span className='text-xs'>Created by: <a className='ml-1 underline text-sm' target={"_blank"} href="http://krishnaakhanal.com.np/">Krishna Khanal</a> </span>
-        </div>
-      </footer>
-    </>
-  )
+          <span className='text-xs                                                                      '>Created by: <a className='ml-1 underline text-sm' target={"_blank"} href="http://krishnaakhanal.com.np/">Krishna Khanal</a> </span>
+        </div>                                                                                                                                                                                                                                                                
+      </footer>                                                                                                                                                       
+                                            </>
+                                          )
 }
 
 export default Footer
